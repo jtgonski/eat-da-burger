@@ -1,0 +1,61 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	font-size: 3em; 
+}
+
+h2 {
+	font-family: georgia, serif;
+}
+
+img {
+	border-radius: 50%;
+}
+
+li {
+
+}
+
+button {
+	padding: 5px;
+	background-color: #8C0CE8;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.container {
+	background-color: #FFED69;
+}
+
+.burgers-div {
+	margin: auto;
+}
+
+.jumbotron {
+	padding: 20px;
+	margin-top: 0;
+	margin: auto;
+	/*background-color: #FFFACC;*/
+	text-align: center;
+	width: 85%;
+}
+
+.burgers {
+	float: left;
+	margin: auto;
+	padding: 50px;
+	min-width: 200px;
+}
+
+.input-form {
+	width: 100%;
+	padding: 50px; 
+	margin: auto;
+	clear: left;
+}
+
+
+
