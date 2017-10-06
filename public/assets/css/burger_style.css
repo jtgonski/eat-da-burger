@@ -1,10 +1,16 @@
 body {
 	font-family: helvetica, arial, sans-serif;
-	background-color: #FFFFFF;
+	display: block;
+	height: 100%;
+	background-color: #FFED69;
 }
 
 h1 {
-	font-size: 3em; 
+	font-size: 4em; 
+	font-family: 'Monoton', cursive;
+	/*font-family: 'Modak', cursive;*/
+	font-weight: normal;
+	margin-bottom: 5px;
 }
 
 h2 {
@@ -15,47 +21,97 @@ img {
 	border-radius: 50%;
 }
 
-li {
-
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 200%;
 }
 
 button {
 	padding: 5px;
-	background-color: #8C0CE8;
-	color: #FFFFFF;
+	margin: 5px;
+	background-color: #FFFFFF;
 	border-radius: 10px;
 }
 
 .container {
-	background-color: #FFED69;
-}
-
-.burgers-div {
 	margin: auto;
+	width: 1000px;
+
 }
 
 .jumbotron {
 	padding: 20px;
-	margin-top: 0;
-	margin: auto;
-	/*background-color: #FFFACC;*/
+	margin: 0 auto;
+	background-color: #FFFACC;
 	text-align: center;
-	width: 85%;
 }
 
-.burgers {
+
+div.burgers1 {
 	float: left;
-	margin: auto;
-	padding: 50px;
-	min-width: 200px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	margin-left: 75px;
+	padding: 25px;
+	min-width: 350px;
+	min-height: 300px;
+	display: inline-block;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+div.burgers2 {
+	float: left;
+	margin: 25px;
+	padding: 25px;
+	min-width: 350px;
+	min-height: 300px;
+	display: inline-block;
+	text-align: left;
+	background-color: #FFFFFF;
 }
 
 .input-form {
 	width: 100%;
 	padding: 50px; 
 	margin: auto;
+	text-align: center;
 	clear: left;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+.container {
+	width: 100%;
+}
+
+.jumbotron {
+	width: 100%;
+}
+
+div.burgers1 {
+	width: 95%;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	clear: left;
+}
+
+div.burgers2 {
+	width: 95%;
+	margin: auto;
+	clear: left;
+}
+
+}
+	
+
+
 
 
 
